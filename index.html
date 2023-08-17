@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +10,16 @@
 <body>
     <header class="page-header">
         <div class="page-logo">
-            <h1 class="visualy-hidden">Устройства</h1>
+            <h1 class="visualy-hidden">Устройства</h1> <!--Так это единственный H1 ЗАГОЛОВОК НА СТРАНИЦЕ-->
             <img src="#" alt="Логотип Device" class="logo">
         </div>
         <nav class="navigation">
             <div class="navigation-list">
+                <form action="https://echo.htmlacademy.ru/courses" class="navigation-form" method="post">
+                    <input class="product-name" type="text" name="page-search" placeholder="Поиск по сайту">
+                    <input type="submit" name="name-item" id="name-item" value="Найти">
+                </form>
                 <ul class="navigation-list-user">
-                    <li class="navigation-item">
-                        <form action="https://echo.htmlacademy.ru/courses" class="navigation-form" method="post">
-                            <input class="product-name" type="text" name="page-search" placeholder="Поиск по сайту">
-                            <input type="submit" name="name-item" id="name-item" value="Найти">
-                        </form>
-                    </li>
                     <li class="navigation-item">
                         <a href="#" class="navigation-link">
                             <img src="#" alt="" class="navigation-link-img">
@@ -96,7 +95,8 @@
                     <div class="galary-slider-description">
                         <span class="galary-slider-item__index">02</span>
                         <h3>Худеем правильно!</h3>
-                        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+                        <p>Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать
+                            диету.</p>
                         <a href="#" class="page-link">Подробнее</a>
                         <div class="galary-slider-item__parameters">
                             <p>48 часов</p>
@@ -113,7 +113,8 @@
                     <div class="galary-slider-description">
                         <span class="galary-slider-item__index">03</span>
                         <h3>Делай селфи, как Бен Стиллер! </h3>
-                        <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+                        <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной
+                            и весом всего 5 кг.</p>
                         <a href="#" class="page-link">Подробнее</a>
                         <div class="galary-slider-item__parameters">
                             <p>8,5 м</p>
@@ -131,7 +132,8 @@
                 </div>
                 <ol class="galary-slaider-pagination">
                     <li class="galary-slaider-pagination-item">
-                        <button class="galary-slaider-pagination-button galary-slaider-pagination-button-current"></button>
+                        <button
+                            class="galary-slaider-pagination-button galary-slaider-pagination-button-current"></button>
                         <span class="visualy-hidden"> фото1</span>
                     </li>
                     <li class="galary-slaider-pagination-item">
@@ -200,8 +202,8 @@
                     <div class="services-slider-description-item">
                         <h3>Кредит</h3>
                         <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут
-                             для вас наиболее выгодные условия кредита.
-                             Выгодные для банка, разумеется.</p>
+                            для вас наиболее выгодные условия кредита.
+                            Выгодные для банка, разумеется.</p>
                         <img src="#" alt="">
                     </div>
                 </div>
@@ -228,7 +230,7 @@
         </section>
         <section class="contacts">
             <h2 class="contacts-title">Контакты</h2>
-            <p>Вы можете забрать товар сами, заехав в наш офис. 
+            <p>Вы можете забрать товар сами, заехав в наш офис.
                 Заодно сможете проверить работоспособность покупки. </p>
             <h3 class="contacts-subtitle">Интернет-магазин «Девайс»</h3>
             <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
@@ -258,21 +260,21 @@
         <nav class="page-footer-navigation">
             <ul class="page-footer-navigation-items">
                 <li class="page-footer-navigation-item">
-                    <a href="#" class="navigation-link-site page-footer-navigation-link">Доставка</a>  
+                    <a href="#" class="navigation-link-site page-footer-navigation-link">Доставка</a>
                 </li>
                 <li class="page-footer-navigation-item">
-                    <a href="#" class="navigation-link-site page-footer-navigation-link">Гарантия</a>  
+                    <a href="#" class="navigation-link-site page-footer-navigation-link">Гарантия</a>
                 </li>
                 <li class="page-footer-navigation-item">
-                    <a href="#" class="navigation-link-site page-footer-navigation-link">Контакты</a>  
+                    <a href="#" class="navigation-link-site page-footer-navigation-link">Контакты</a>
                 </li>
             </ul>
         </nav>
         <a href="tel:88128121212" class="page-footer-phone">Тел.: +7 (812) 812-12-12</a>
         <div class="page-footer-social">
-            <img src="#" alt="">
-            <img src="#" alt="">
-            <img src="#" alt="">
+            <a href="#"><img src="#" alt="телеграмм"></a>
+            <a href="#"><img src="#" alt="Ютуб"></a>
+            <a href="#"><img src="#" alt="Твитер"></a>
         </div>
         <a href="#" class="page-footer-logo-html">
             <img src="#" alt="">
